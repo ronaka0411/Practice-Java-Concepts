@@ -34,3 +34,6 @@ class Variable{
 		this.y=y;	
 	}
 }
+
+
+// If you do as stated in the comments section, you will find compile time error. That is you cannot change or manipulate the value of final variable or object
