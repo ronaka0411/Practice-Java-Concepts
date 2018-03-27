@@ -1,0 +1,9 @@
+//Taking integer as an input argument
+public class EchoNum {
+    public static void main (String[] args) {
+                int firstArg = 0;
+		if (args.length > 0)
+                firstArg = Integer.parseInt(args[0]);
+		System.out.println(firstArg);
+    }
+}
